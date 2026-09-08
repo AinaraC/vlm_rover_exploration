@@ -393,8 +393,8 @@ To prevent hallucinations and guarantee methodical multi-criteria spatial reason
 
 #### Explored Area ($A_{\text{expl}}$)
 Total metric surface area discovered by the rover within the operational radius:
-$$A_{\text{expl}} = N_{\text{explored\_cells}} \times \Delta r^2 \quad [\text{m}^2]$$
-where $\Delta r$ is the map grid resolution in meters per cell ($\Delta r = 0.05\,\text{m}$).
+$$A_{\text{expl}} = N_{\text{cells}} \times \Delta r^2 \quad [\text{m}^2]$$
+where $N_{\text{cells}}$ is the total count of explored grid cells (free and obstacle cells) and $\Delta r$ is the map grid resolution in meters per cell ($\Delta r = 0.05\,\text{m}$).
 
 #### Coverage Ratio ($\text{CR}$)
 The ratio of newly mapped terrain surface area per meter of physical travel:
