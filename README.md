@@ -16,6 +16,10 @@ This project integrates local multimodal LLM inference (`llama.cpp` / `llama_ros
 
 ---
 
+<div align="center">
+<img src="ex.gif" width="70%" alt="Qwen spiral counter-clockwise exploration strategy">
+</div>
+
 ## Table of Contents
 
 - [System Architecture & Workflow](#system-architecture--workflow)
@@ -454,6 +458,14 @@ Configurations are located in `src/vlm_rover_exploration/vlm_rover_exploration_b
 If you utilize this framework or benchmark methodology in your research, please cite the underlying components:
 
 ```bibtex
+@software{Gonzalez-Santamarta_ros2_rover_2021,
+author = {González-Santamarta, Miguel Á.},
+month = jul,
+title = {{ros2\_rover}},
+url = {https://github.com/mgonzs13/ros2_rover},
+year = {2021}
+}
+
 @article{yasmin2024,
   title={YASMIN: Yet Another State MachINe for ROS 2},
   author={Gonz{\'a}lez-Santamarta, Miguel {\'A}ngel and Camino-Castro, Roberto and Garc{\'i}a-P{\'e}rez, Diego and Rodriguez-Lera, Francisco J.},
